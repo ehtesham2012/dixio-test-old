@@ -9,7 +9,7 @@ while :
 echo "loop started"
 for f in *.txt; 
 do 
-	head -c -20 $f > "/filestore/new_$f";
+	head -c 20 $f > "/filestore/new_$f";
 	rm -rf /incoming/$f
 done
 echo "sleep started"
