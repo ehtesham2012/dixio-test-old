@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh -x
 sudo su -
 mkdir /incoming
 mkdir /filestore
